@@ -100,6 +100,20 @@ cell phone 0.82
 bottle 0.91
 calendar 0.76
 
+## Project Screenshots
+
+### Object Detection
+![Object Detection](assets/object-detection.jpg)
+
+### Open Hand Gesture
+![Open Hand Gesture](assets/open-hand-gesture.jpg)
+
+### Finger Counting
+![Finger Counting](assets/finger-counting.jpg)
+
+### Hand Landmarks
+![Hand Landmarks](assets/hand-landmarks.jpg)
+
 Future Improvements:
 Improve gesture recognition accuracy
 Add more hand gestures
