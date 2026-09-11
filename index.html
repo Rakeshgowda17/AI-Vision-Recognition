@@ -166,6 +166,49 @@
                 font-size: 30px;
             }
         }
+        .screenshots-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.screenshots-grid .card {
+    overflow: hidden;
+}
+
+.screenshots-grid .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .screenshots-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.screenshots-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.screenshots-grid .card {
+    width: 100%;
+}
+
+.screenshots-grid .card img {
+    width: 100% !important;
+    height: 350px !important;
+    object-fit: contain !important;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
     </style>
 </head>
 
@@ -201,7 +244,7 @@
         Real-time results from the AI Vision Recognition system.
     </p>
 
-    <div class="cards">
+    <div class="screenshots-grid">
 
         <div class="card">
             <img src="assets/object-detection.jpg"
