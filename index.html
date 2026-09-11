@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Vision Recognition</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+        }
+
+        .hero {
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #cbd5e1;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 28px;
+            margin: 8px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            background: #38bdf8;
+            color: #0f172a;
+        }
+
+        .btn.secondary {
+            background: transparent;
+            color: white;
+            border: 1px solid #38bdf8;
+        }
+
+        section {
+            padding: 80px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 38px;
+            margin-bottom: 50px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #334155;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            border-color: #38bdf8;
+        }
+
+        .card h3 {
+            color: #38bdf8;
+            margin-bottom: 12px;
+            font-size: 22px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+        }
+
+        .technology {
+            text-align: center;
+            background: #111827;
+        }
+
+        .tech-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .tech {
+            padding: 12px 20px;
+            background: #1e293b;
+            border-radius: 25px;
+            border: 1px solid #475569;
+        }
+
+        .how {
+            max-width: 850px;
+            margin: auto;
+        }
+
+        .step {
+            background: #1e293b;
+            margin: 20px 0;
+            padding: 25px;
+            border-left: 4px solid #38bdf8;
+            border-radius: 8px;
+        }
+
+        .step h3 {
+            color: #38bdf8;
+            margin-bottom: 8px;
+        }
+
+        .github {
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #020617;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .hero p {
+                font-size: 17px;
+            }
+
+            .section-title {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="hero">
+            <h1>AI <span>Vision Recognition</span></h1>
+
+            <p>
+                Real-time computer vision application for
+                hand gesture recognition, finger counting,
+                and object detection.
+            </p>
+
+            <a href="#features" class="btn">Explore Project</a>
+
+            <a href="https://github.com/Rakeshgowda17/AI-Vision-Recognition"
+               class="btn secondary"
+               target="_blank">
+                View on GitHub
+            </a>
+        </div>
+    </header>
+
+
+    <!-- Features -->
+    <section id="features">
+
+        <h2 class="section-title">Project Features</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>✋ Hand Recognition</h3>
+                <p>
+                    Detects hands in real time using MediaPipe
+                    hand landmark detection.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🔢 Finger Counting</h3>
+                <p>
+                    Recognizes the number of raised fingers
+                    from 0 to 5.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🤟 Gesture Recognition</h3>
+                <p>
+                    Identifies common hand gestures such as
+                    Peace and other gestures.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📦 Object Detection</h3>
+                <p>
+                    Detects objects such as people, bottles,
+                    mobile phones and other objects.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Technology -->
+    <section class="technology">
+
+        <h2 class="section-title">Technologies Used</h2>
+
+        <div class="tech-list">
+
+            <div class="tech">Python</div>
+            <div class="tech">OpenCV</div>
+            <div class="tech">MediaPipe</div>
+            <div class="tech">YOLO</div>
+            <div class="tech">YOLOE</div>
+            <div class="tech">NumPy</div>
+            <div class="tech">Git</div>
+            <div class="tech">GitHub</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- How It Works -->
+    <section>
+
+        <h2 class="section-title">How It Works</h2>
+
+        <div class="how">
+
+            <div class="step">
+                <h3>01. Webcam Input</h3>
+                <p>
+                    The application captures live video
+                    from the computer webcam.
+                </p>
+            </div>
+
+            <div class="step">
+                <h3>02. Hand Detection</h3>
+                <p>
+                    MediaPipe detects hand landmarks and
+                    analyzes finger positions.
+                </p>
+            </div>
+
+            <div class="step">
+                <h3>03. Gesture Recognition</h3>
+                <p>
+                    The system analyzes the hand landmarks
+                    to identify gestures and count fingers.
+                </p>
+            </div>
+
+            <div class="step">
+                <h3>04. Object Detection</h3>
+                <p>
+                    YOLO-based object detection identifies
+                    objects visible through the webcam.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GitHub -->
+    <section class="github">
+
+        <h2 class="section-title">Explore the Project</h2>
+
+        <p style="color:#cbd5e1; margin-bottom:25px;">
+            Check the source code, documentation and project files
+            on GitHub.
+        </p>
+
+        <a href="https://github.com/Rakeshgowda17/AI-Vision-Recognition"
+           class="btn"
+           target="_blank">
+            ⭐ View GitHub Repository
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>AI Vision Recognition © 2026</p>
+        <p>Built with Python, OpenCV, MediaPipe & YOLO</p>
+    </footer>
+
+</body>
+</html>
