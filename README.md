@@ -1,9 +1,14 @@
-# AI Vision Recognition
+# 🤖 AI Vision Recognition
 
-AI Vision Recognition is a real-time computer vision project built with Python.
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange)
+![YOLOE](https://img.shields.io/badge/YOLOE-Object%20Detection-red)
+![GitHub](https://img.shields.io/badge/GitHub-Project-black)
 
-The application uses a webcam to detect hand landmarks, recognize hand gestures,
-count fingers, and identify objects in real time.
+A real-time AI computer vision application built with **Python, OpenCV, MediaPipe, and Ultralytics YOLOE**.
+
+The system uses a webcam to detect **hand landmarks, count fingers, recognize hand gestures, and detect objects in real time**.
 
 ## Features
 
