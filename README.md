@@ -5,6 +5,7 @@
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange)
 ![YOLOE](https://img.shields.io/badge/YOLOE-Object%20Detection-red)
 [![GitHub Stars](https://img.shields.io/github/stars/Rakeshgowda17/AI-Vision-Recognition?style=flat)](https://github.com/Rakeshgowda17/AI-Vision-Recognition)
+[Live Demo](https://rakeshgowda17.github.io/AI-Vision-Recognition/)
 A real-time AI computer vision application built with **Python, OpenCV, MediaPipe, and Ultralytics YOLOE**.
 
 The system uses a webcam to detect **hand landmarks, count fingers, recognize hand gestures, and detect objects in real time**.
